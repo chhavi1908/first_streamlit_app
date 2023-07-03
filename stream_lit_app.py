@@ -39,7 +39,7 @@ import requests
 import snowflake 
 import snowflake.connector
 from urllib.error import URLError
-import snowflake.connector
+
 
 my_cnx = snowflake.connector.connect(**streamlit.secrets["snowflake"])
 my_cur = my_cnx.cursor()
